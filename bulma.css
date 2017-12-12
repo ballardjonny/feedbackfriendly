@@ -106,6 +106,9 @@ th {
   margin-bottom: 15%;
   margin-right: 15%; }
 
+.hero-title {
+  max-width: 80%; }
+
 .showme {
   opacity: 0;
   -webkit-transform: translateY(5px);
@@ -141,7 +144,7 @@ th {
   top: 0;
   float: left;
   width: 100px;
-  margin: 1em; }
+  margin: 1.5rem; }
 
 html {
   background-color: white;
