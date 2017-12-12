@@ -136,6 +136,13 @@ th {
   -ms-transform: translateY(0px);
   transform: translateY(0px); }
 
+.logo {
+  position: absolute;
+  top: 0;
+  float: left;
+  width: 180px;
+  margin: 2em; }
+
 html {
   background-color: white;
   font-size: 16px;
