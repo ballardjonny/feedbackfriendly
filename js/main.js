@@ -12,4 +12,13 @@ $(document).ready(function(){
   slidesToScroll: 6,
   dots: true,
   });
+
+$('.modal-one').click(function () {
+			$('.modal').addClass('is-active');
+		});
+
+    $('.modal-background, .delete').click(function () {
+    			$('.modal').removeClass('is-active');
+    		});
+
 });
