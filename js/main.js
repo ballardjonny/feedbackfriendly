@@ -59,21 +59,4 @@ $('.modal-background, .delete').click(function () {
 		$('.animate').addClass("visible");
 		}
 
-
-    var $form = $('form#test-form'),
-        url = 'https://script.google.com/macros/u/0/s/AKfycbySUaWbVwpKmLl_WvhPxb9Sg4gFFOz8ylCE-jWPpelBd4mK6NcH/exec'
-
-    $('#submit-form').on('click', function(e) {
-      e.preventDefault();
-      var jqxhr = $.ajax({
-        url: url,
-        method: "GET",
-        dataType: "json",
-        data: $form.serializeObject()
-      }).success(
-        // do something
-      );
-    })
-
-
 });
