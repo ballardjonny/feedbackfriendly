@@ -51,8 +51,12 @@ $('.modal-one').click(function () {
 			$('.modal').addClass('is-active');
 		});
 
-    $('.modal-background, .delete').click(function () {
-    			$('.modal').removeClass('is-active');
-    		});
+$('.modal-background, .delete').click(function () {
+			$('.modal').removeClass('is-active');
+		});
+
+		if ($('.animate').is(':visible')){
+		$('.animate').addClass("visible");
+		}
 
 });

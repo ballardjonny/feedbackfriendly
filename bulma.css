@@ -94,11 +94,47 @@ th {
   width: 30px;
   height: 30px;
   border-radius: 30px;
-  background-color: #1d1d1d;
+  background-color: #9B9B9B;
   text-align: center;
   line-height: 30px;
   color: white;
   margin-right: 10px; }
+
+.hero-vertical {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 15%;
+  margin-right: 15%; }
+
+.showme {
+  opacity: 0;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s; }
+
+.showmedelay {
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+  -o-transition-delay: 600ms;
+  transition-delay: 600ms;
+  -webkit-transition-delay: 600ms; }
+
+.visible {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px); }
 
 html {
   background-color: white;
