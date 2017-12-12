@@ -40,6 +40,7 @@ $(document).ready(function(){
       settings: {
         arrows: false,
         slidesToShow: 1
+        swipeToSlide: true,
       }
     }
   ]
