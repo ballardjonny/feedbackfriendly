@@ -108,6 +108,9 @@ th {
 
 .hero-title {
   max-width: 80%; }
+  @media screen and (max-width: 480px) {
+    .hero-title {
+      font-size: 1em; } }
 
 .showme {
   opacity: 0;
